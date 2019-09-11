@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thank You</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'price/bootstrap.min.css' %}">
+
+</head>
+<body>
+	<center>
+		<h1>THANK YOU</h1><br>
+		<h2>Your details Have been successfully saved</h2><br>
+		<h3>You will recieve a mail from us when the price drops</h3>
+		<a href="{% url 'details' %}"><button class="btn btn-success">Go back to the previous page</button></a>
+	</center>
+
+</body>
+</html>
